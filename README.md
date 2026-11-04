@@ -125,14 +125,14 @@ python3 src/python/pipeline.py \
 
 ---
 
-## Academic Context & Course Reference
+## Academic Context
 
-This project is developed as part of **CE671: Introduction to Remote Sensing** at **IIT Kanpur**.
+Developed as part of **CE671: Introduction to Remote Sensing** at **IIT Kanpur**.
 
-### Team Members
-- **Aayushman Kumar** — Software Architecture, C++ SIMD Core, Raster Tiling Engine
-- **Shivakshi** — Geoinformatics, SWED Dataset Curation, GIS Mapping & Spatial Analysis
-- **Rajendra** — Remote Sensing Theory, Classroom Filter Comparison, Evaluation & Reporting
+### Authors
+- Aayushman Kumar
+- Shivakshi
+- Rajendra
 
 ---
 
