@@ -132,7 +132,7 @@ Developed as part of **CE671: Introduction to Remote Sensing** at **IIT Kanpur**
 ### Authors
 - Aayushman Kumar
 - Shivakshi
-- Rajendra
+- Rajendra Singh (Roll No. 261230610)
 
 ---
 
