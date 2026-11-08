@@ -1,6 +1,6 @@
 # Classroom Filter Comparison
 
-> Track B deliverable (Shivakshi & Rajendra). Theory and results are taken from the Group 15 term paper (Sections 2.2, 3.2–3.4, 4.3–4.5). All scores are from the Ashdod port scene of the SWED dataset.
+> Group 15 Term Project (Aayushman Kumar, Shivakshi, Rajendra Singh). Theory and results are taken from the Group 15 term paper (Sections 2.2, 3.2–3.4, 4.3–4.5). All scores are from the Ashdod port scene of the SWED dataset.
 
 ---
 
@@ -128,7 +128,7 @@ $$\text{Precision} = \frac{\text{correct}}{\text{correct} + \text{extra}} \qquad
 
 - Only **one scene** (Ashdod, clear water) was tested, and settings were chosen and scored on that same scene, so scores may be optimistic.
 - Canny also detects docks and buildings, so its output needs cleaning (e.g. keeping only large connected land/water regions, as in Liu & Jezek, 2004).
-- Turbid water, wet sand or vegetated coasts may favour a different filter or input. This is the planned 4-terrain extension (see AGENTS.md, Track B).
+- Turbid water, wet sand or vegetated coasts may favour a different filter or input. This is evaluated across the 98-scene SWED benchmark in Section 4.5 of the term paper.
 
 ---
 

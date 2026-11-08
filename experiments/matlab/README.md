@@ -6,6 +6,6 @@ Use canny_swed.m (main, recommended)
 
 canny_swed_data.m (light version)
 - No figures; saves CSV and PNG only (made because MATLAB Online had trouble saving figures)
-- Also saves the full Canny sweep (210 runs) and best threshold per sigma (Table 5)
+- Also saves the full Canny sweep (210 runs) and best threshold per sigma (Table 3 in report)
 
 To run on a new scene: change IMG_FILE, LBL_FILE and OUT_DIR at the top of the script.

@@ -61,7 +61,7 @@ def create_comparison_figure():
     axes[3].axis("off")
 
     plt.tight_layout()
-    out_dir = os.path.join(os.path.dirname(__file__), "..", "docs", "figures")
+    out_dir = os.path.join(os.path.dirname(__file__), "..", "Reports & Presentations", "figures")
     os.makedirs(out_dir, exist_ok=True)
     out_file = os.path.join(out_dir, "fig30_geoedge_pipeline_output.png")
     plt.savefig(out_file, bbox_inches="tight")
