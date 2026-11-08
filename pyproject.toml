@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "pybind11>=2.10.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoedge"
+version = "1.0.0"
+description = "Adaptive, High-Throughput Canny Edge Detection for Multispectral Satellite Imagery"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Aayushman Kumar" },
+    { name = "Shivakshi" },
+    { name = "Rajendra Singh" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "rasterio>=1.3.0",
+    "opencv-python>=4.7.0"
+]
+
+[project.scripts]
+geoedge = "src.python.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

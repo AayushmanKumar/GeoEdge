@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+*.so
+*.o
+*.a
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+
+# Editor & temporary lock files
+*.crdownload
+.~lock.*
+.DS_Store
+
+# Large experiment output directory (43MB Google Drive bundle)
+canny_multiple_results/
